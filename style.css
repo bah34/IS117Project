@@ -2,9 +2,14 @@ ul {
     list-style-type: none;
 }
 
+body {
+
+}
+
 .footer {
     position: fixed;
     width: 100%;
     text-align: center;
     padding: 10px;
+    bottom: 0;
 }

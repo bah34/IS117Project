@@ -1,10 +1,15 @@
 /*Developer: Brandon Hunt, IS117-003, Fall 2022*/
+navbar {
+    position: fixed;
+    top: 0;
+}
+
 ul {
     list-style-type: none;
 }
 
 body {
-
+    padding-bottom: 20px;
 }
 
 .footer {

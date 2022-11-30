@@ -12,6 +12,10 @@ body {
     padding-bottom: 20px;
 }
 
+aside {
+    float: right;
+}
+
 .footer {
     position: fixed;
     width: 100%;

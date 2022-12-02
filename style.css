@@ -1,15 +1,24 @@
 /*Developer: Brandon Hunt, IS117-003, Fall 2022*/
-nav {
+.navbar {
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 ul {
     list-style-type: none;
 }
 
+input {
+
+    border-radius: 3px;
+    width: 100%;
+}
+
 body {
-    padding-bottom: 20px;
+    padding: 20px;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
 aside {
@@ -17,10 +26,11 @@ aside {
 }
 
 .footer {
-    position: fixed;
+
     width: 100%;
     text-align: center;
     padding: 10px;
+    left: 0;
     bottom: 0;
 }
 
